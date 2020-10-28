@@ -16,20 +16,14 @@ public class TilemapSpawner : MonoBehaviour
     private TileBase cityTile;
     [SerializeField]
     private Tilemap map;
-    private Camera mainCamera;
     private Vector3Int tilemapPosTest = new Vector3Int(5,5,0);
     public TileBase randomTile;
-    [SerializeField]
-    private GridLayout grid;
-    [SerializeField]
-    private GameObject brushTarget;
     void Start()
     {
 
         map = GetComponent<Tilemap>();
             
         //map.CompressBounds();
-        mainCamera = Camera.main;
 
         for(int i = 0; i < 5;)
         {
@@ -46,7 +40,6 @@ public class TilemapSpawner : MonoBehaviour
             }
         }
         //map.FloodFill(tilemapPosCenter, tileToSet);
-        //PaintRoad();
         FillWithRandomTiles(rangeX,rangeY);
     }
     private bool CheckNeighbourTiles(Vector3Int coords)
@@ -98,11 +91,5 @@ public class TilemapSpawner : MonoBehaviour
                     }
                 }
             }
-    }
-    
-    private void PaintRoad()
-    {
-
-        //UnityEditor.Tilemaps.LineBrush.Paint(grid, brushTarget, tilemapPosTest);
     }
 }
