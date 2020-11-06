@@ -15,5 +15,5 @@ MonoBehaviour:
   cityName: Poznan
   description: City next to the river
   resources: 030000000700000001000000
-  citySprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  cityImage: {fileID: 0}
   cityColor: {r: 0.7478917, g: 0.19624422, b: 0.8490566, a: 0}
