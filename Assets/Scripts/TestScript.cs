@@ -4,50 +4,47 @@ using UnityEngine;
 using CodeMonkey.Utils;
 public class TestScript : MonoBehaviour
 {
-    [SerializeField] private HeatMapVisual heatMapVisual;
-    public Grid grid;
+    // [SerializeField] private HeatMapVisual heatMapVisual;
+    // public Grid<bool> grid;
 
-    private float mouseMoveTimer;
-    private float mouseMoveTimerMax = .01f;
+    // private float mouseMoveTimer;
+    // private float mouseMoveTimerMax = .01f;
 
-    void Start()
-    {
-        grid = new Grid(10, 10, 3f, new Vector3(-1,-1,0));
+    // void Start()
+    // {
+    //     grid = new Grid<bool>(30, 100, 3f, new Vector3(-1,-1,0));
 
-        heatMapVisual.SetGrid(grid);
-        //HeatMapVisual heatMapVisual = new HeatMapVisual(grid, GetComponent<MeshFilter>());
-    }
+    //     //heatMapVisual.SetGrid(grid);
+    // }
 
-    private void Update()
-    {
-        //HandleHeatMapMouseMove();
-        if (Input.GetMouseButtonDown(0))
-        { 
-            Vector3 pos = UtilsClass.GetMouseWorldPosition();
-            int value = grid.GetValue(UtilsClass.GetMouseWorldPosition());
-            grid.AddValue(pos, 5, 5);
-        }
+    // private void Update()
+    // {
+    //     if (Input.GetMouseButtonDown(0))
+    //     { 
+    //         //int value = grid.GetValue(UtilsClass.GetMouseWorldPosition());
+    //         Vector3 pos = UtilsClass.GetMouseWorldPosition();
+    //     }
         
-    }
+    // }
 
-    private void HandleHeatMapMouseMove()
-    {
-        mouseMoveTimer -= Time.deltaTime;
-        if (mouseMoveTimer < 0f)
-        {
-            mouseMoveTimer += mouseMoveTimerMax;
-            int gridValue = grid.GetValue(UtilsClass.GetMouseWorldPosition());
-            grid.SetValue(UtilsClass.GetMouseWorldPosition(), gridValue + 1);
-        }
-    }
+    // private void HandleHeatMapMouseMove()
+    // {
+    //     mouseMoveTimer -= Time.deltaTime;
+    //     if (mouseMoveTimer < 0f)
+    //     {
+    //         mouseMoveTimer += mouseMoveTimerMax;
+    //         int gridValue = grid.GetValue(UtilsClass.GetMouseWorldPosition());
+    //         grid.SetValue(UtilsClass.GetMouseWorldPosition(), gridValue + 1);
+    //     }
+    // }
 
-    private void HandleClickToModifyGrid()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            grid.SetValue(UtilsClass.GetMouseWorldPosition(), 1);
-        }
-    }
+    // private void HandleClickToModifyGrid()
+    // {
+    //     if (Input.GetMouseButtonDown(0))
+    //     {
+    //         grid.SetValue(UtilsClass.GetMouseWorldPosition(), 1);
+    //     }
+    // }
 
     // private class HeatMapVisual
     // {

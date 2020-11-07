@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 1027452274}
   - component: {fileID: 1027452273}
   - component: {fileID: 1027452272}
-  - component: {fileID: 1027452271}
   m_Layer: 0
   m_Name: HeatMapObj
   m_TagString: Untagged
@@ -143,18 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1027452271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027452270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89f5fc8353982474491d8a09d8daa38c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &1027452272
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -271,7 +258,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 40
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -327,10 +314,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2021796461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0400f60c9a6cb0e4ba872e75d9da984d, type: 3}
+  m_Script: {fileID: 11500000, guid: 513a8d6027c4e984c9ea9691414fd4cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heatMapVisual: {fileID: 1027452271}
 --- !u!4 &2021796463
 Transform:
   m_ObjectHideFlags: 0
