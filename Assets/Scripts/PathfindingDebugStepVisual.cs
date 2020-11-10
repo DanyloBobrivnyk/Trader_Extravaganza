@@ -95,7 +95,7 @@ public class PathfindingDebugStepVisual : MonoBehaviour {
                 int gCost = pathNode.gCost;
                 int hCost = pathNode.hCost;
                 int fCost = pathNode.fCost;
-                Vector3 gridPosition = new Vector3(pathNode.x, pathNode.y) * grid.GetCellSize() + Vector3.one * grid.GetCellSize() * .5f;
+                Vector3 gridPosition = new Vector3(pathNode.x, pathNode.y) * grid.GetCellSize() + Vector3.one * grid.GetCellSize() * .5f + grid.GetOriginPosition();
                 bool isCurrent = pathNode == current;
                 bool isInOpenList = openList.Contains(pathNode);
                 bool isInClosedList = closedList.Contains(pathNode);
@@ -137,7 +137,7 @@ public class PathfindingDebugStepVisual : MonoBehaviour {
                 int gCost = pathNode.gCost;
                 int hCost = pathNode.hCost;
                 int fCost = pathNode.fCost;
-                Vector3 gridPosition = new Vector3(pathNode.x, pathNode.y) * grid.GetCellSize() + Vector3.one * grid.GetCellSize() * .5f;
+                Vector3 gridPosition = new Vector3(pathNode.x, pathNode.y) * grid.GetCellSize() + Vector3.one * grid.GetCellSize() * .5f + grid.GetOriginPosition();
                 bool isInPath = path.Contains(pathNode);
                 int tmpX = x;
                 int tmpY = y;
@@ -152,6 +152,7 @@ public class PathfindingDebugStepVisual : MonoBehaviour {
                         backgroundColor = new Color(0, 1, 0);
                     } else {
                         backgroundColor = UtilsClass.GetColorFromString("636363");
+                        //backgroundColor = UtilsClass.GetColorFromString("8033b5e5");
                     }
 
                     visualNode.Find("sprite").GetComponent<SpriteRenderer>().color = backgroundColor;

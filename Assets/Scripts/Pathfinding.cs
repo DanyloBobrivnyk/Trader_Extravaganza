@@ -44,7 +44,7 @@ public class Pathfinding {
         } else {
             List<Vector3> vectorPath = new List<Vector3>();
             foreach (PathNode pathNode in path) {
-                vectorPath.Add(new Vector3(pathNode.x, pathNode.y) * grid.GetCellSize() + Vector3.one * grid.GetCellSize() * .5f);
+                vectorPath.Add(new Vector3(pathNode.x, pathNode.y) * grid.GetCellSize() + Vector3.one * grid.GetCellSize() * .5f + grid.GetOriginPosition());
             }
             return vectorPath;
         }
@@ -174,6 +174,17 @@ public class Pathfinding {
             }
         }
         return lowestFCostNode;
+    }
+
+    public void RandomizeObjects(int height, int width)
+    {
+        int objSum = (height*width)/4;
+
+        for(int i = 0; i < objSum; i++)
+        {
+            PathNode gridObject = grid.GetGridObject(Random.RandomRange(1, height), Random.RandomRange(1, width));
+            gridObject.SetIsWalkable(gridObject.isWalkable);
+        }
     }
 
 }
