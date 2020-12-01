@@ -8,6 +8,7 @@ public class Product
     public int amount, price;
 }
 
+[Serializable]
 public enum ProductTypes
 {
     GRAIN,

@@ -23,4 +23,15 @@ public class City : ScriptableObject
     {
         
     }
+
+    public void Test(string test) {}
+    public void ChangeProductPrice(ProductTypes productType, int changeAmount)
+    {
+        foreach (Product product in resources)
+        {
+            if (product.productType == productType) product.price += changeAmount;
+        }
+    }
+    
+    
 }
