@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Database;
 using Tips;
 using TMPro;
 using UnityEngine;
@@ -10,8 +9,9 @@ public class CityMenuScript : MonoBehaviour
 {
     public int cityID;
     private City _city;
-    private TipsController _tipsController;
-    public GameObject productListWindow, lookAroundWindow;
+    [SerializeField] private TipsController _tipsController;
+    public GameObject lookAroundWindow;
+    [SerializeField] private TradeController _tradeController;
     public Button inkeeper, villager, musician;
     public GameObject cityScene, dialogueScene;
     private int _paperNumber;
@@ -20,9 +20,8 @@ public class CityMenuScript : MonoBehaviour
     void Start()
     {
         print("CityMenu start");
-        _city = CitiesDatabase.GetCity(cityID);
-        _tipsController = FindObjectOfType<TipsController>();
-        _tipsController.SetMessages(CitiesDatabase.GetCityPapersMessages(cityID));
+        _city = Database.GetCity(cityID);
+        _tipsController.SetMessages(Database.GetCityPapersMessages(cityID));
 
         inkeeper.onClick.AddListener(Inkeeper);
         villager.onClick.AddListener(Villager);
@@ -37,12 +36,11 @@ public class CityMenuScript : MonoBehaviour
     public void OpenLookAround()
     {
         lookAroundWindow.SetActive(true);
-        productListWindow.SetActive(false);
     }
 
     public void OpenProductList()
     {
-        productListWindow.SetActive(true);
+        _tradeController.Show(_city);
         lookAroundWindow.SetActive(false);
     }
 

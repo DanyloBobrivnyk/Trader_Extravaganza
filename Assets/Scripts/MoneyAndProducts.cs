@@ -21,7 +21,7 @@ public class MoneyAndProducts : MonoBehaviour
 
     public int[] lastIntSliderValue;
 
-    public Dictionary<Products, string> products;
+    public Dictionary<ProductTypes, string> products;
 
     void Start()
     {

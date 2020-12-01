@@ -245,6 +245,7 @@
             <e p="World_Sprite.cs" t="Include" />
           </e>
         </e>
+        <e p="PlayerEquipment.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CharacterPathfindingMovementHandler.cs" t="Include" />
           <e p="CharacterPositionMovementHandler.cs" t="Include" />
@@ -252,8 +253,8 @@
           <e p="CityDisplay.cs" t="Include" />
           <e p="CityMenuScript.cs" t="Include" />
           <e p="Database" t="Include">
-            <e p="CitiesDatabase.cs" t="Include" />
             <e p="CitiesDB.cs" t="Include" />
+            <e p="Database.cs" t="Include" />
           </e>
           <e p="Dialog.cs" t="Include" />
           <e p="GoToCityWindow.cs" t="Include" />
@@ -370,6 +371,8 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TradeController.cs" t="Include" />
+        <e p="TradeProductController.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

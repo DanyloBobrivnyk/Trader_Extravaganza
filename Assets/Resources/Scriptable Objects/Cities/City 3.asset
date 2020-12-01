@@ -10,24 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a9529b3da5560249ab46e49311893d6, type: 3}
-  m_Name: New City
+  m_Name: City 3
   m_EditorClassIdentifier: 
   cityName: 
   description: 
-  cityImage: {fileID: 21300000, guid: 3569e037a043c4b428fff62255761ff7, type: 3}
+  cityImage: {fileID: 0}
   resources: []
-  papers:
-  - action: {fileID: 7863913710352918684, guid: 80bea066bb20d44fd89b3edad56a17a6,
-      type: 3}
-    message: 
-  - action: {fileID: 0}
-    message: 
-  dialogs:
-  - action: {fileID: 0}
-    messages:
-    - dsad
-    - sda
-    - dsad
-    - dasd
-  - action: {fileID: 0}
-    messages: []
+  papers: []
+  dialogs: []

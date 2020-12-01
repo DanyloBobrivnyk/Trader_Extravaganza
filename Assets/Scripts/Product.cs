@@ -1,15 +1,18 @@
 using System;
+using UnityEngine;
 
 [Serializable]
 public class Product
 {
-    public Products productType;
+    public ProductTypes productType;
     public int amount, price;
 }
 
-public enum Products
+public enum ProductTypes
 {
-    WOOD,
-    STONE,
-    FLOUR
+    GRAIN,
+    LEATHER,
+    MEAT,
+    SPICES,
+    WOOD
 }
