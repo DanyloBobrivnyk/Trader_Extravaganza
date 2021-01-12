@@ -10,6 +10,8 @@ public class TradeController : MonoBehaviour
 
     [SerializeField] private GameObject productListParent;
 
+    private List<TradeProductController> _tradeProductControllers;
+    
     private bool _productsGenerated;
 
     public void Show(City city)
@@ -28,6 +30,7 @@ public class TradeController : MonoBehaviour
 
     private void GenerateProducts(List<Product> products)
     {
+        _tradeProductControllers = new List<TradeProductController>();
         foreach (Product product in products)
         {
             TradeProductController newProduct = Instantiate(productPrefab, productListParent.transform).GetComponent<TradeProductController>();
@@ -35,6 +38,7 @@ public class TradeController : MonoBehaviour
             newProduct.Initialize();
             newProduct.OnBuy += Buy;
             newProduct.OnSell += Sell;
+            _tradeProductControllers.Add(newProduct);
         }
 
         _productsGenerated = true;
@@ -48,7 +52,7 @@ public class TradeController : MonoBehaviour
         playerEq.AddProduct(product.productType, 1);
         product.amount -= 1;
         goldText.text = playerEq.Gold.ToString();
-        tradeProductController.Initialize();
+        foreach (TradeProductController productController in _tradeProductControllers) productController.Initialize();
     }
     
     private void Sell(TradeProductController tradeProductController)
@@ -59,6 +63,6 @@ public class TradeController : MonoBehaviour
         playerEq.RemoveProduct(product.productType, 1);
         product.amount += 1;
         goldText.text = playerEq.Gold.ToString();
-        tradeProductController.Initialize();
+        foreach (TradeProductController productController in _tradeProductControllers) productController.Initialize();
     }
 }
