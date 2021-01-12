@@ -17,19 +17,19 @@ MonoBehaviour:
   cityImage: {fileID: 21300000, guid: 3569e037a043c4b428fff62255761ff7, type: 3}
   resources:
   - productType: 0
-    amount: 1
+    amount: 5
     price: 10
   - productType: 1
-    amount: 2
+    amount: 10
     price: 22
   - productType: 2
-    amount: 3
+    amount: 6
     price: 33
   - productType: 3
-    amount: 4
+    amount: 10
     price: 44
   - productType: 4
-    amount: 5
+    amount: 10
     price: 55
   papers:
   - action: {fileID: 7863913710352918684, guid: 80bea066bb20d44fd89b3edad56a17a6,

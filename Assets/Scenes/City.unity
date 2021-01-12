@@ -1163,6 +1163,7 @@ MonoBehaviour:
   cityScene: {fileID: 577382726}
   dialogueScene: {fileID: 380958063}
   npcNumber: 0
+  goldText: {fileID: 2077392792}
 --- !u!114 &1711784977
 MonoBehaviour:
   m_ObjectHideFlags: 0

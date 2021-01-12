@@ -16,10 +16,12 @@ public class CityMenuScript : MonoBehaviour
     public GameObject cityScene, dialogueScene;
     private int _paperNumber;
     public int npcNumber;
+    public TextMeshProUGUI goldText;
 
     void Start()
     {
         print("CityMenu start");
+        goldText.text = Database.GetPlayerEq().Gold.ToString();
         _city = Database.GetCity(cityID);
         _tipsController.SetMessages(Database.GetCityPapersMessages(cityID));
 

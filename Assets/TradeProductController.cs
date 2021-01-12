@@ -30,7 +30,7 @@ public class TradeProductController : MonoBehaviour
 
         playerAmountText.text = $"x{Database.GetPlayerEq().Products[_product.productType].ToString()}";
 
-        buyButton.interactable = _product.amount > 0;
+        buyButton.interactable = _product.amount > 0 && Database.GetPlayerEq().Gold >= _product.price;
         sellButton.interactable = Database.GetPlayerEq().Products[_product.productType] > 0;
     }
     
