@@ -25,6 +25,11 @@ using UnityEngine;
             return _citiesDB.Database[id];
         }
 
+        public static int GetID(City city)
+        {
+            return _citiesDB.Database.IndexOf(city);
+        }
+
         public static Sprite GetProductIcon(Product product)
         {
             print(product.productType);

@@ -33,11 +33,11 @@ public class Route : MonoBehaviour
 	{
 		if(city1.cityName == comeFrom.cityName)
 		{
-			mapController.currentCityID = 1;
+			mapController.currentCityID = Database.GetID(city2);
 		}
 		else
 		{
-			CurrentCity currentCity = city1;
+			mapController.currentCityID = Database.GetID(city1);
 		}
 	}
 	
