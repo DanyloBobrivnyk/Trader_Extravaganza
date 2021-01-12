@@ -1,16 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
-using XNode;
+﻿using XNode;
 
-namespace Dialouge_System
+namespace Dialogue_System.Nodes
 {
-	public class ChangeProductValue : EventNode
+	public class ChangeProductValue : DialogueNode
 	{
-		[Input(backingValue = ShowBackingValue.Never)] public Node input;
-		[Output(backingValue = ShowBackingValue.Never)] public Node output;
-	
 		public City city;
 		public ProductTypes productType;
 		public int valueChange;
@@ -32,13 +25,8 @@ namespace Dialouge_System
 			if (port == null) return;
 			
 			NodePort connection = port.GetConnection(0);
-			(connection.node as EventNode)?.Trigger();
-			(graph as SimpleGraph).current = connection.node as EventNode;
+			(connection.node as DialogueNode)?.Trigger();
+			(graph as DialogueGraph).current = connection.node as DialogueNode;
 		}
-	}
-
-	public abstract class EventNode : Node
-	{
-		public abstract void Trigger();
 	}
 }

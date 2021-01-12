@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New City", menuName = "City")]
+[CreateAssetMenu(fileName = "New City", menuName = "Cities/City")]
 public class City : ScriptableObject
 {
     public string cityName;
@@ -32,6 +32,10 @@ public class City : ScriptableObject
             if (product.productType == productType) product.price += changeAmount;
         }
     }
-    
-    
+}
+
+[CreateAssetMenu(fileName = "Current City", menuName = "Cities/Current City")]
+public class CurrentCity : City
+{
+    public City city;
 }

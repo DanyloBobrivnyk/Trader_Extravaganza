@@ -632,7 +632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &380958064
 RectTransform:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b63c2af3e7f184ab7b625f3a5f8c8f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialouge: {fileID: 11400000, guid: a74cd5f1fef1e4141b49238d18e1db6c, type: 2}
+  dialogue: {fileID: 11400000, guid: a74cd5f1fef1e4141b49238d18e1db6c, type: 2}
   npcText: {fileID: 5149802540134668473}
   answerButton: {fileID: 5674619927859769379}
 --- !u!1 &458127330
@@ -4099,7 +4099,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4119,7 +4119,7 @@ MonoBehaviour:
   m_fontSize: 20
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0

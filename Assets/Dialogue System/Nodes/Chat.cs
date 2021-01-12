@@ -1,25 +1,17 @@
 ﻿// SimpleNode.cs
 
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using UnityEngine;
-using UnityEngine.Events;
 using XNode;
 
-namespace Dialouge_System
+namespace Dialogue_System.Nodes
 {
     [CreateAssetMenu]
-    public class Chat : EventNode { 
-        [Input] public float input;
+    public class Chat : DialogueNode {
 
         [TextArea] public string text;
         [Output(dynamicPortList = true)][TextArea] public List<string> answers;
 
-        // public override object GetValue(NodePort port) {
-        //     if (port.fieldName == "b") return GetInputValue<float>("a", a);
-        //     else return null;
-        // }
-        
         public void AnswerQuestion(int index) {
             NodePort port = null;
             if (answers.Count == 0) {
@@ -32,14 +24,13 @@ namespace Dialouge_System
             if (port == null) return;
             for (int i = 0; i < port.ConnectionCount; i++) {
                 NodePort connection = port.GetConnection(i);
-                (connection.node as EventNode)?.Trigger();
+                (connection.node as DialogueNode)?.Trigger();
             }
         }
 
         public override void Trigger()
         {
-            Debug.Log("Triggering");
-            (graph as SimpleGraph).current = this;
+            ((DialogueGraph) graph).current = this;
         }
     }
 }
