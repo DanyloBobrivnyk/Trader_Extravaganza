@@ -18,7 +18,7 @@ MonoBehaviour:
   resources:
   - productType: 0
     amount: 1
-    price: 11
+    price: 10
   - productType: 1
     amount: 2
     price: 22

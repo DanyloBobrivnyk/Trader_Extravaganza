@@ -20,48 +20,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e56310-ea7b-44ba-b903-6aeacd1d251d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Arrow UI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Arrow UI.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerEquipment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PlayerEquipment.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trade Window.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trade Window/Product.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trade Window/Product.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/GRAIN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/GRAIN.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/LEATHER.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/LEATHER.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/MEAT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/MEAT.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/SPICES.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/SPICES.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/WOOD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/WOOD.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TradeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TradeProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TradeProductController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/ChangeProductValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Chat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Chat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/DialougeTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/New Simple Node.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/New Simple Node.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/SimpleGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/SimpleGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Test Dialouge.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Test Dialouge.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/CONTRIBUTING.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Attributes/NodeEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Attributes/NodeEnum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/NodeEnumDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/NodeEnumDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InNodeEditorAttributeProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InNodeEditorAttributeProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InputAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InputAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/OutputAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/OutputAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphAndNodeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphAndNodeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphRenameFixAssetProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphRenameFixAssetProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Internal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Internal/RerouteReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Internal/RerouteReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUILayout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUILayout.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorPreferences.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorPreferences.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorReflection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorReflection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorResources.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorResources.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/RenamePopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/RenamePopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeGraphTemplate.cs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeGraphTemplate.cs.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeTemplate.cs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeTemplate.cs.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot_outer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot_outer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_highlight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_workfile.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_workfile.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/SceneGraphEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/SceneGraphEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/XNodeEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/XNodeEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Node.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Node.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeDataCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeDataCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodePort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodePort.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/SceneGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/SceneGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/XNode.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/XNode.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trader_Extravaganza.sln.DotSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trade.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trade.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities Database.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities Database.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/New City 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/New City 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/New City.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/New City.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base10.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/City.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CityMenuScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CityMenuScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Database/CitiesDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Database/Database.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Database/CitiesDatabase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Database/Database.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyAndProducts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyAndProducts.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/City.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/City.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Product.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +149,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/TipsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/ModifyValueGameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dialouge System/DialougeTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database/CitiesDB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TradeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/Paper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerEquipment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dialouge System/ChangeProductValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/Paper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A55D4B6-90B6-4085-AA6A-3E01886A9E6B/ed/cd95ce0b/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -93,7 +169,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tips/Paper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tips/PaperAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/City.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CitiesDB.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tips/ModifyValueGameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tips/TipsController.cs" />
@@ -101,9 +176,18 @@
         <option value="$PROJECT_DIR$/Assets/PlayerEquipment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Database/Database.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CityMenuScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
         <option value="$PROJECT_DIR$/Assets/TradeProductController.cs" />
         <option value="$PROJECT_DIR$/Assets/TradeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/City.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/SimpleNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/ChangeProdcutValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/SimpleGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/Chat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/ChangeProductValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/DialougeTest.cs" />
       </list>
     </option>
   </component>
@@ -135,10 +219,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="49609">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="49609" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -155,6 +239,7 @@
       <updated>1606068839216</updated>
       <workItem from="1606068848997" duration="8467000" />
       <workItem from="1606224467203" duration="7120000" />
+      <workItem from="1606828201103" duration="7241000" />
     </task>
     <servers />
   </component>
@@ -248,6 +333,10 @@
       <screen x="0" y="25" width="2560" height="986" />
     </state>
     <state width="1662" height="354" key="GridCell.Tab.3.right/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397324" />
+    <state x="880" y="254" key="Rider.ProjectTemplateDialog.Size" timestamp="1606832189769">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state x="880" y="254" key="Rider.ProjectTemplateDialog.Size/0.25.2560.986/2560.527.1792.1095@0.25.2560.986" timestamp="1606832189769" />
     <state x="1191" y="170" key="SettingsEditor" timestamp="1606225076668">
       <screen x="0" y="25" width="2560" height="986" />
     </state>
