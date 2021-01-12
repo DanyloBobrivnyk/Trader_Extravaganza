@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Route : MonoBehaviour
 {
 	public MapController mapController;
-	public Transform playerPosition;
+	//public Transform playerPosition;
 	public City city1;
 	public City city2;
 	[SerializeField] private Image roadImage;
@@ -39,6 +39,7 @@ public class Route : MonoBehaviour
 		{
 			mapController.currentCityID = Database.GetID(city1);
 		}
+		Debug.Log(mapController.currentCityID);
 	}
 	
 }
