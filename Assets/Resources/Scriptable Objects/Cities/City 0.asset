@@ -15,6 +15,8 @@ MonoBehaviour:
   cityName: Wiocha zabita dechami
   description: dupa
   cityImage: {fileID: 21300000, guid: 3569e037a043c4b428fff62255761ff7, type: 3}
+  nearbyCities:
+  - {fileID: 11400000, guid: d24c89c15b713471e97f7caadf0835e9, type: 2}
   resources:
   - productType: 0
     amount: 1

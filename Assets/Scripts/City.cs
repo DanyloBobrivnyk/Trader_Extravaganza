@@ -12,8 +12,8 @@ public class City : ScriptableObject
     public string description;
     public Sprite cityImage;
     
+    public List<City> nearbyCities;
     public List<Product> resources;
-
     public List<Paper> papers;
 
     public List<Dialog> dialogs;
