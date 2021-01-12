@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TradeController : MonoBehaviour
 {
+    public TextMeshProUGUI goldText;
     public GameObject productPrefab;
     [SerializeField] private TextMeshProUGUI cityNameText;
 
@@ -30,15 +31,34 @@ public class TradeController : MonoBehaviour
         foreach (Product product in products)
         {
             TradeProductController newProduct = Instantiate(productPrefab, productListParent.transform).GetComponent<TradeProductController>();
-            
-            newProduct.priceText.text = $"{product.price.ToString()}$";
-            newProduct.merchantAmount.text = $"x{product.amount.ToString()}";
-            newProduct.productNameText.text = product.productType.ToString();
-            newProduct.productIcon.sprite = Database.GetProductIcon(product);
-
-            newProduct.playerAmountText.text = $"x{Database.GetPlayerEq().Products[product.productType].ToString()}";
+            newProduct.Product = product;
+            newProduct.Initialize();
+            newProduct.OnBuy += Buy;
+            newProduct.OnSell += Sell;
         }
 
         _productsGenerated = true;
+    }
+
+    private void Buy(TradeProductController tradeProductController)
+    {
+        Product product = tradeProductController.Product;
+        PlayerEquipment playerEq = Database.GetPlayerEq();
+        playerEq.RemoveGold(product.price);
+        playerEq.AddProduct(product.productType, 1);
+        product.amount -= 1;
+        goldText.text = playerEq.Gold.ToString();
+        tradeProductController.Initialize();
+    }
+    
+    private void Sell(TradeProductController tradeProductController)
+    {
+        Product product = tradeProductController.Product;
+        PlayerEquipment playerEq = Database.GetPlayerEq();
+        playerEq.AddGold(product.price);
+        playerEq.RemoveProduct(product.productType, 1);
+        product.amount += 1;
+        goldText.text = playerEq.Gold.ToString();
+        tradeProductController.Initialize();
     }
 }

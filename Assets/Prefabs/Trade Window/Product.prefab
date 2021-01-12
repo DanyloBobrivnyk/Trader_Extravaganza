@@ -610,7 +610,9 @@ MonoBehaviour:
   merchantAmount: {fileID: 5381375943054820158}
   playerAmountText: {fileID: 5924970973791234958}
   productNameText: {fileID: 9047473104213839302}
-  productIcon: {fileID: 0}
+  productIcon: {fileID: 3364423686524450116}
+  buyButton: {fileID: 5924970972549930100}
+  sellButton: {fileID: 5924970972935145777}
 --- !u!114 &7811619941957999063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +786,7 @@ GameObject:
   - component: {fileID: 5924970972549930102}
   - component: {fileID: 5924970972549930100}
   m_Layer: 5
-  m_Name: Down arrow
+  m_Name: Buy Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -889,7 +891,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5924970972549930102}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3239286045516583557}
+        m_TargetAssemblyTypeName: TradeProductController, Assembly-CSharp
+        m_MethodName: Buy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5924970972935145741
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +917,7 @@ GameObject:
   - component: {fileID: 5924970972935145779}
   - component: {fileID: 5924970972935145777}
   m_Layer: 5
-  m_Name: Up arrow
+  m_Name: Sell Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1008,7 +1022,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5924970972935145779}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3239286045516583557}
+        m_TargetAssemblyTypeName: TradeProductController, Assembly-CSharp
+        m_MethodName: Sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5924970973342788155
 GameObject:
   m_ObjectHideFlags: 0

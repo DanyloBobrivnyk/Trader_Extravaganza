@@ -22,12 +22,12 @@ public class PlayerEquipment : MonoBehaviour
 
     public void AddProduct(ProductTypes type, int amount)
     {
-        Products[type] = amount;
+        Products[type] += amount;
     }
 
     public void RemoveProduct(ProductTypes type, int amount)
     {
-        Products[type] = amount;
+        Products[type] -= amount;
         if (Products[type] < 0) Products[type] = 0;
     }
 
