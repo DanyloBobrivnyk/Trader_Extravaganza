@@ -16,11 +16,11 @@ public class Route : MonoBehaviour
 		switch (difficulty)
 		{
 			case RouteDifficulty.EAZY:
-				roadImage.color = Color.green;
+				roadImage.color = Color.blue;
 			break;
 			
 			case RouteDifficulty.MEDIUM:
-				roadImage.color = Color.white;
+				roadImage.color = Color.yellow;
 			break;
 			
 			case RouteDifficulty.HARD:
@@ -34,12 +34,14 @@ public class Route : MonoBehaviour
 		if(city1.cityName == comeFrom.cityName)
 		{
 			mapController.currentCityID = Database.GetID(city2);
+			Debug.Log("After travel ID:" + mapController.currentCityID);
 		}
-		else
+		else if(city2.cityName == comeFrom.cityName)
 		{
 			mapController.currentCityID = Database.GetID(city1);
+			Debug.Log("After travel ID:" + mapController.currentCityID);
 		}
-		Debug.Log(mapController.currentCityID);
+
 	}
 	
 }

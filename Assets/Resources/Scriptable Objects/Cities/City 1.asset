@@ -15,7 +15,9 @@ MonoBehaviour:
   cityName: Poznan
   description: Small City
   cityImage: {fileID: 21300000, guid: 3569e037a043c4b428fff62255761ff7, type: 3}
-  nearbyCities: []
+  nearbyCities:
+  - {fileID: 11400000, guid: b608da93fbdc54613b756ad2b535c990, type: 2}
+  - {fileID: 11400000, guid: cfc496987110a441184feb804487a977, type: 2}
   resources:
   - productType: 0
     amount: 1
