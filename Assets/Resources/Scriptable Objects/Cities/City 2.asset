@@ -10,18 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a9529b3da5560249ab46e49311893d6, type: 3}
-  m_Name: Poznan
+  m_Name: City 2
   m_EditorClassIdentifier: 
-  cityName: Poznan
-  description: Small City
+  cityName: Kings Bay
+  description: Huge city
   cityImage: {fileID: 0}
+  nearbyCities:
+  - {fileID: 11400000, guid: d24c89c15b713471e97f7caadf0835e9, type: 2}
   resources:
-  - productType: 0
-    amount: 0
-    price: 0
-  - productType: 0
-    amount: 0
-    price: 0
   - productType: 0
     amount: 0
     price: 0

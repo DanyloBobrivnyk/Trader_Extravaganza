@@ -10,20 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a9529b3da5560249ab46e49311893d6, type: 3}
-  m_Name: Poznan
+  m_Name: City4
   m_EditorClassIdentifier: 
-  cityName: Poznan
-  description: Small City
+  cityName: Martlock
+  description: Rocks and meat !!!
   cityImage: {fileID: 0}
+  nearbyCities: []
   resources:
   - productType: 0
-    amount: 0
-    price: 0
-  - productType: 0
-    amount: 0
-    price: 0
-  - productType: 0
-    amount: 0
-    price: 0
+    amount: 3
+    price: 5
+  - productType: 3
+    amount: 1
+    price: 5
+  - productType: 4
+    amount: 1
+    price: 5
+  - productType: 2
+    amount: 9
+    price: 5
   papers: []
   dialogs: []
