@@ -17,15 +17,21 @@ namespace Dialogue_System.Nodes
             if (answers.Count == 0) {
                 port = GetOutputPort("output");
             } else {
-                if (answers.Count <= index) return;
+                if (answers.Count < index) return;
                 port = GetOutputPort("answers " + index);
             }
-
+            // foreach (var VARIABLE in Ports)
+            // {
+            //     Debug.Log(VARIABLE.fieldName);
+            // }
             if (port == null) return;
+
             for (int i = 0; i < port.ConnectionCount; i++) {
                 NodePort connection = port.GetConnection(i);
                 (connection.node as DialogueNode)?.Trigger();
             }
+
+            
         }
 
         public override void Trigger()

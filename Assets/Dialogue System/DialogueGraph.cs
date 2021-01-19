@@ -9,7 +9,7 @@ namespace Dialogue_System
     public class DialogueGraph : NodeGraph
     {
         public DialogueNode current;
-
+        public DialogueTest dialogueController;
         public void Restart()
         {
             current = nodes.Find(x => x is Chat && x.Inputs.All(y => !y.IsConnected)) as Chat;

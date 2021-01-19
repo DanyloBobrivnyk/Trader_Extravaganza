@@ -1,4 +1,5 @@
-﻿using XNode;
+﻿using UnityEngine;
+using XNode;
 
 namespace Dialogue_System.Nodes
 {
@@ -21,8 +22,15 @@ namespace Dialogue_System.Nodes
 		public override void Trigger()
 		{
 			city.ChangeProductPrice(productType, valueChange);
+			Debug.Log("Product value changed");
 			NodePort port = GetOutputPort("output");
 			if (port == null) return;
+
+			if (port.ConnectionCount == 0)
+			{
+				Debug.LogError("This node does not have connection");
+				return;
+			}
 			
 			NodePort connection = port.GetConnection(0);
 			(connection.node as DialogueNode)?.Trigger();
