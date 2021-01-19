@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38e56310-ea7b-44ba-b903-6aeacd1d251d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/ChangeProductValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Chat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Chat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/DialougeTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/New Simple Node.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/New Simple Node.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/SimpleGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/SimpleGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Test Dialouge.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialouge System/Test Dialouge.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/CONTRIBUTING.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Attributes/NodeEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Attributes/NodeEnum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/NodeEnumDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/NodeEnumDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InNodeEditorAttributeProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InNodeEditorAttributeProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InputAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/InputAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/OutputAttributeDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Drawers/Odin/OutputAttributeDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphAndNodeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphAndNodeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphRenameFixAssetProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/GraphRenameFixAssetProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Internal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Internal/RerouteReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Internal/RerouteReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorAssetModProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUILayout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorGUILayout.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorPreferences.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorPreferences.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorReflection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorReflection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorResources.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorResources.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorUtilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorUtilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeEditorWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/NodeGraphImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/RenamePopup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/RenamePopup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeGraphTemplate.cs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeGraphTemplate.cs.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeTemplate.cs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeTemplate.cs.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot_outer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_dot_outer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_highlight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_workfile.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/Resources/xnode_node_workfile.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/SceneGraphEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/SceneGraphEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/XNodeEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Editor/XNodeEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Node.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/Node.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeDataCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeDataCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodeGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodePort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/NodePort.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/SceneGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/SceneGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/XNode.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/Scripts/XNode.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/xNode-1.8.0/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trader_Extravaganza.sln.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Trader_Extravaganza/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scriptable Objects/Cities/City 0.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Products/base10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/City.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/City.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/City.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Product.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/TipsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/ModifyValueGameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dialouge System/DialougeTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Database/CitiesDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TradeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerEquipment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dialouge System/ChangeProductValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tips/Paper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A55D4B6-90B6-4085-AA6A-3E01886A9E6B/ed/cd95ce0b/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/TipsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CitiesDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoneyAndProducts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tips/ModifyValuePaper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tips/Paper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tips/PaperAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CitiesDB.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tips/ModifyValueGameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tips/TipsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database/CitiesDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerEquipment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Database/Database.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CityMenuScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/TradeProductController.cs" />
+        <option value="$PROJECT_DIR$/Assets/TradeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/SimpleNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/City.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/SimpleNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/ChangeProdcutValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/SimpleGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/Chat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/ChangeProductValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialouge System/DialougeTest.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kelFolvn8nfXygOhlsbeiOF2uV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34947884" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29981607" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38e56310-ea7b-44ba-b903-6aeacd1d251d" name="Default Changelist" comment="" />
+      <created>1606068839216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606068839216</updated>
+      <workItem from="1606068848997" duration="8467000" />
+      <workItem from="1606224467203" duration="7120000" />
+      <workItem from="1606828201103" duration="7241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="416" height="464" key="DebuggerActiveHint" timestamp="1606227946808">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="416" height="464" key="DebuggerActiveHint/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606227946808" />
+    <state width="1662" height="354" key="GridCell.Tab.0.bottom" timestamp="1606243397322">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.0.bottom/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397322" />
+    <state width="1662" height="354" key="GridCell.Tab.0.center" timestamp="1606243397321">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.0.center/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397321" />
+    <state width="1662" height="354" key="GridCell.Tab.0.left" timestamp="1606243397320">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.0.left/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397320" />
+    <state width="1662" height="354" key="GridCell.Tab.0.right" timestamp="1606243397322">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.0.right/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397322" />
+    <state width="1662" height="354" key="GridCell.Tab.1.bottom" timestamp="1606243397323">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.1.bottom/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397323" />
+    <state width="1662" height="354" key="GridCell.Tab.1.center" timestamp="1606243397322">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.1.center/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397322" />
+    <state width="1662" height="354" key="GridCell.Tab.1.left" timestamp="1606243397322">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.1.left/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397322" />
+    <state width="1662" height="354" key="GridCell.Tab.1.right" timestamp="1606243397322">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.1.right/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397322" />
+    <state width="1662" height="354" key="GridCell.Tab.2.bottom" timestamp="1606243397323">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.2.bottom/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397323" />
+    <state width="1662" height="354" key="GridCell.Tab.2.center" timestamp="1606243397323">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.2.center/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397323" />
+    <state width="1662" height="354" key="GridCell.Tab.2.left" timestamp="1606243397323">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.2.left/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397323" />
+    <state width="1662" height="354" key="GridCell.Tab.2.right" timestamp="1606243397323">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.2.right/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397323" />
+    <state width="1662" height="354" key="GridCell.Tab.3.bottom" timestamp="1606243397324">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.3.bottom/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397324" />
+    <state width="1662" height="354" key="GridCell.Tab.3.center" timestamp="1606243397324">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.3.center/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397324" />
+    <state width="1662" height="354" key="GridCell.Tab.3.left" timestamp="1606243397324">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.3.left/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397324" />
+    <state width="1662" height="354" key="GridCell.Tab.3.right" timestamp="1606243397324">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state width="1662" height="354" key="GridCell.Tab.3.right/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606243397324" />
+    <state x="880" y="254" key="Rider.ProjectTemplateDialog.Size" timestamp="1606832189769">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state x="880" y="254" key="Rider.ProjectTemplateDialog.Size/0.25.2560.986/2560.527.1792.1095@0.25.2560.986" timestamp="1606832189769" />
+    <state x="1191" y="170" key="SettingsEditor" timestamp="1606225076668">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state x="1191" y="170" key="SettingsEditor/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606225076668" />
+    <state x="100" y="125" width="1558" height="786" key="VCS.FileHistoryDialog" timestamp="1606084865039">
+      <screen x="0" y="25" width="2560" height="986" />
+    </state>
+    <state x="100" y="125" width="1558" height="786" key="VCS.FileHistoryDialog/0.25.2560.986/2560.400.1792.1095@0.25.2560.986" timestamp="1606084865039" />
+  </component>
+</project>
