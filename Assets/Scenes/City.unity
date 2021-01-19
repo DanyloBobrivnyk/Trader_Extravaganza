@@ -682,7 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cityMenuScript: {fileID: 1711784976}
-  dialogue: {fileID: 11400000, guid: a74cd5f1fef1e4141b49238d18e1db6c, type: 2}
+  dialogue: {fileID: 11400000, guid: 6146009135ede4f06a4a8289a9485036, type: 2}
   npcText: {fileID: 5149802540134668473}
   answersParent: {fileID: 1041156690}
   answerButtonPrefab: {fileID: 8595459250446852935, guid: 960a968c670221a4cbbf13020cb5542c,
@@ -2404,7 +2404,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.45
+  m_fontSize: 49.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5719,14 +5719,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6550476c0282026408cc9c852a37f36b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d036be94b5df04472aad20c9d99d78a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
