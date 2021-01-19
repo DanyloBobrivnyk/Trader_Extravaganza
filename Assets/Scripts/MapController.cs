@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapController : MonoBehaviour
 {
+    public RouteEventController routeEventController;
     public int currentCityID;
     public List<Route> routes;
 
@@ -18,10 +19,7 @@ public class MapController : MonoBehaviour
                 {
                     Debug.Log("before travel" + currentCityID);
                     route.Travel(Database.GetCity(currentCityID));
-                    if(route.diffculty == EAZY)
-                    {
-
-                    }
+                    route.InitializeEvent();
                 }
             }
         }

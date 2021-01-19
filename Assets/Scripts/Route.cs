@@ -43,7 +43,11 @@ public class Route : MonoBehaviour
 		}
 
 	}
-	
+	public void InitializeEvent()
+	{
+		mapController.routeEventController.ImplementEvent(difficulty);
+	}
+
 }
 public enum RouteDifficulty
 {
